@@ -1,5 +1,141 @@
+body{
+  margin: 0;
+}
 /*Home*/
+.sections{
+  overflow: hidden;
+  max-height: 700px;
+}
+.right-section {
+  width: 60%;
+  float: left;
+}
+.left-section{
+width: 40%;
+float: left;
+}
+/*Sessão da esquerda*/
+.top-logo{
+  width: 120px;
+}
+.top-logo img{
+  width: 100px;
+}
+.navegacao{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(233, 232, 232);
+  border-radius:15px ;
+  
+}
+.navegacao a {
+  text-decoration: none;
+  color:black;
+  margin: 9px;
+}
+.text-button-left-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+.text-button-left-section .text1 {
+  text-align: start;
+  margin: 0;
+  font-size: 20px;
+  padding: 0;
+}
+.text-button-left-section p{
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+.button-left-section{
+  background-color: rgb(233, 232, 232) ;
+  margin-top: 50px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.button-left-section a{
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+}
+.button-left-section:hover{
+ background-color: rgb(187, 187, 187);
+ 
+}
+/*Sessão da direita*/
+.right-section{
+  background-color: rgb(20, 36, 79);
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-img-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-img-right h2 {
+  margin-left: 30px;
+  text-align: start;
+  font-size: 40px;
+  color: aliceblue;
+}
+.text-img-right img {
+  width: 600px;
+  border-radius: 60px;
+  
+}
+
 /*Sobre nós*/
 /*Ajuda*/
 /*Chatbot*/
+.top-page{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top-page .top-logo img{
+  width: 80px;
+}
+
+.interaction{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+.msg-bot{
+  margin-top: 50px;
+  background-color: rgb(218, 218, 218) ;
+  padding: 20px;
+  border-radius: 50px;
+  width: 400px;
+  font-size: 20px;
+  margin-bottom: 350px;
+}
+.input-user{
+  width: 500px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.text-footer{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  border-top: 1px solid grey;
+  text-align: center;
+  background-color: rgb(218, 218, 218) ;
+  padding: 30px;
+}
 /*Parcerias*/

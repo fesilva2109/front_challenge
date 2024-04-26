@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
   margin: 0;
 }
 /*Home*/
@@ -125,6 +127,7 @@ float: left;
   text-decoration: none;
   color:black;
   margin: 9px;
+  font-family: "Roboto", sans-serif;
 }
 
 .imgs{
@@ -140,30 +143,9 @@ float: left;
 .img-sobre{
   width: 300px;
 }
-
-/*Ajuda*/
-.ajuda-text-img{
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: center;
-  
-}
-.img-ajuda{
-  margin-top: 50px;
-  margin-left: 30px;
-  width: 60%;
-}
-.img-ajuda img {
-  width: 700px;
-  border-radius: 50px;
-}
-.text-ajuda{
-
-  margin-left: 30px;
-  margin-right: 30px;
-  width: 700px;
-  font-size: 23px;
+.text-sobre p{
+  margin: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
 .git-button {
@@ -177,15 +159,46 @@ float: left;
 .git-button img{
   width: 40px;
 }
+.git-button p{
+
+}
 .link-sobre{
   text-decoration: none;
-
+  font-family: "Roboto Condensed", sans-serif;
+  
 }
 .git-button p{
 
   margin: 2px;
   color: rgb(37, 38, 38);
 }
+
+
+/*Ajuda*/
+.ajuda-text-img{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.img-ajuda{
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 60%;
+}
+.img-ajuda img {
+  width: 700px;
+  border-radius: 50px;
+}
+.text-ajuda{
+  width: 700px;
+  font-size: 23px;
+}
+.text-ajuda p {
+  font-family: "Roboto", sans-serif;
+}
+
 
 
 /*Chatbot*/
@@ -230,17 +243,24 @@ float: left;
   padding: 30px;
 }
 /*Parcerias*/
+
 .text-img-parcerias{
   display: flex;
   flex-direction:row;
   justify-content: center;
   align-items: center;
-  margin: 30px;
-}
-.main-text{
-  margin: 30px;
-  font-size: 20px;
+  margin: 50px;
   margin-bottom: 0;
+}
+.text-parcerias{
+  font-family: "Roboto", sans-serif;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.text2-parcerias{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 50px
 }
 .div-img-parcerias{
   margin: 30px;

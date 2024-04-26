@@ -31,12 +31,12 @@ float: left;
   text-decoration: none;
   color:black;
   margin: 9px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .text-button-left-section{
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-top: 200px;
   
 }

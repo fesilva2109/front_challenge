@@ -129,7 +129,9 @@ float: left;
 .text-img-sobre{
   margin: 40px;
 }
-
+.img-sobre{
+  width: 300px;
+}
 
 /*Ajuda*/
 .ajuda-text-img{
@@ -156,6 +158,26 @@ float: left;
   font-size: 23px;
 }
 
+.git-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(209, 209, 209);
+  padding: 2px;
+  border-radius: 30px;
+}
+.git-button img{
+  width: 40px;
+}
+.link-sobre{
+  text-decoration: none;
+
+}
+.git-button p{
+  
+  margin: 2px;
+  color: rgb(37, 38, 38);
+}
 
 
 /*Chatbot*/

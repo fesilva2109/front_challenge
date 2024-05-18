@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
 </head>
-
 <body>
-<div class="estrutura">
-    <div class="wrapper">
-        <form action="">
-            <h1>Login</h1>
-            <div class="input-box">
-                <input type="text" placeholder="Nome" required>
-                <i class='bx bxs-user'></i>
+    <div class="sections">
+        <div class="left-section">
+            <div class="top-logo">
+                <a href="home.html">
+                    <img src="../anexos/logoMEF.png" alt=""/>
+                </a>
             </div>
-            <div class="input-box">
-                <input type="Senha" placeholder="Senha" required>
-                <i class='bx bxs-lock-alt' ></i>
+            <nav class="navegacao"> 
+                <a href="../home.html"><ul>Home</ul></a>
+                <a href="pages/sobre.html"><ul>Sobre nós</ul></a>
+                <a href="pages/parcerias.html"><ul>Parcerias</ul></a>
+                <a href="pages/ajuda.html"><ul>Ajuda</ul></a>
+            </nav>
+            <div class="text-button-left-section">
+                <p class="text1">Vamos começar</p>
+                <p>Como podemos te ajudar?</p>
+                
+                    <a class= "button-to-chatbot" href="pages/chatbot.html">
+                        <div class="button-left-section">
+                            <p>Converse com nossa assistente virtual</p>
+                        </div>
+                    </a>
             </div>
-
-            <div class="lembrar-senha">
-                <label><input type="checkbox">Lembrar senha</label>
-                <a href="#">Esqueceu sua senha ?</a>
+        </div>
+        
+        <div class="right-section">
+            <div class="text-img-right">
+                <h2>O lugar para quem gosta de cuidar do seu automóvel</h2>
+                <img src="anexos/suportePorto.png" alt="">
             </div>
-
-            <button type="submit" class="btn">Login</button>
-
-            <div class="cadastrar-link">
-                <p>Não tem cadastro? <a href="#">Cadastrar</a></p>
-            </div>
-        </form>
+        </div>
     </div>
-</div>
 </body>
-
 </html>

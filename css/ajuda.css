@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  font-family:"Poppins", sans-serif; ;
+}
+
+.top-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-logo-tipo2{
+    width: 120px;
+}
+
+.top-logo-tipo2 img{
+    width: 100px;
+}
+
+nav.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(233, 232, 232);
+    border-radius:15px ;  
+}
+
+nav.navegacao a {
+    text-decoration: none;
+    color:rgb(62, 61, 61);
+    margin: 9px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+nav.navegacao a:hover {
+    font-weight: bold;
+}
+  
+.ajuda-text-img{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.img-ajuda{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 60%;
+}
+
+.img-ajuda img {
+    width: 700px;
+    border-radius: 50px;
+}
+
+.text-ajuda{
+    width: 700px;
+    font-size: 23px;
+}
+
+.text-ajuda p {
+    font-family: "Roboto", sans-serif;
+}

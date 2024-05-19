@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    font-family:"Poppins", sans-serif; ;
+}
+
+.top-page-chatbot{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-page-chatbot .top-logo img{
+    width: 80px;
+}
+
+.interaction{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.msg-bot{
+    margin-top: 50px;
+    background-color: rgb(218, 218, 218) ;
+    padding: 20px;
+    border-radius: 50px;
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 350px;
+}
+
+.input-user{
+    width: 500px;
+    padding: 10px;
+    border-radius: 30px;
+}
+  
+.text-footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-top: 1px solid grey;
+    text-align: center;
+    background-color: rgb(218, 218, 218) ;
+    padding: 30px;
+}

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family:"Poppins", sans-serif; ;
+}
+
+.top-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-logo-tipo2{
+    width: 120px;
+}
+
+.top-logo-tipo2 img{
+    width: 100px;
+}
+
+nav.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(233, 232, 232);
+    border-radius:15px ; 
+}
+
+nav.navegacao a {
+    text-decoration: none;
+    color:rgb(62, 61, 61);
+    margin: 9px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+nav.navegacao a:hover {
+    font-weight: bold;
+}
+  
+.imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text-img-sobre{
+    margin: 40px;
+}
+
+.img-sobre{
+    width: 300px;
+}
+
+.text-sobre p{
+    margin: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.git-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+    padding: 2px;
+    border-radius: 30px;
+}
+
+.git-button:hover {
+    background-color: rgb(164, 163, 163);
+}
+
+.git-button img{
+    width: 40px;
+}
+
+.link-sobre{
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.git-button p{
+    margin: 2px;
+    color: rgb(37, 38, 38);
+}
+
+.centralizar-link-repositorio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.div-link-repositorio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background-color: rgb(209, 209, 209);
+    padding: 2px;
+    border-radius: 30px;
+}
+
+.div-link-repositorio img {
+    width: 50px;
+}
+
+.link-repositorio {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    color: rgb(37, 38, 38);
+}
+
+.div-link-repositorio:hover {
+    background-color: rgb(164, 163, 163);
+}
+  

@@ -1,95 +1,109 @@
+/* Reset básico */
 * {
     margin: 0;
-    font-family:"Poppins", sans-serif; ;
+    font-family: "Poppins", sans-serif;
 }
 
+/* Estrutura geral */
 .sections {
     overflow: hidden;
 }
-  
+
 .right-section {
     width: 60%;
     float: left;
 }
-  
+
 .left-section {
     width: 40%;
     float: left;
 }
-  
-  /* Sessão da esquerda */ 
 
+/* Sessão da esquerda */
 .top-logo {
     width: 120px;
 }
-  
+
 .top-logo img {
     width: 100px;
 }
-  
+
 nav.navegacao {
     display: flex;
     flex-direction: row;
     background-color: rgb(233, 232, 232);
     border-radius: 15px;
+    padding: 10px; /* Adicionado padding para melhorar o espaçamento */
 }
-  
+
+nav.navegacao ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Removido margem para alinhamento correto */
+    display: flex; /* Mantém os itens em linha */
+}
+
+nav.navegacao li {
+    margin: 0 5px; /* Espaçamento entre os itens da navegação */
+}
+
 nav.navegacao a {
     text-decoration: none;
     color: rgb(62, 61, 61);
-    margin: 9px;
     font-family: "Roboto", sans-serif;
+    padding: 10px; /* Adicionado padding para melhorar a área clicável */
 }
-  
+
 nav.navegacao a:hover {
     font-weight: bold;
 }
-  
+
 .text-button-left-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 200px;
 }
-  
+
 .text-button-left-section .text1 {
     text-align: start;
     margin: 0;
     font-size: 20px;
     padding: 0;
 }
-  
+
 .text-button-left-section p {
     text-align: start;
     margin: 0;
     padding: 0;
     font-size: 30px;
 }
-  
+
 .button-to-chatbot {
     text-decoration: none;
 }
-  
+
 .button-left-section {
     background-color: rgb(233, 232, 232);
     margin-top: 50px;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
+    cursor: pointer; /* Adicionado cursor para indicar que é um botão */
+    text-align: center; /* Centralizado o texto no botão */
 }
-  
+
 .button-left-section p {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     color: rgb(63, 63, 63);
 }
-  
+
 .button-left-section:hover {
     background-color: rgb(187, 187, 187);
 }
-  
-  /* Sessão da direita */
 
+/* Sessão da direita */
 .right-section {
     background-image: linear-gradient(to bottom, rgba(27, 3, 67, 0.88), rgba(40, 2, 144, 0.863), rgba(2, 59, 95, 0.869), rgba(0, 125, 129, 0.806));
     display: flex;
@@ -97,7 +111,7 @@ nav.navegacao a:hover {
     align-items: center;
     justify-content: center;
 }
-  
+
 .text-img-right {
     display: flex;
     flex-direction: column;
@@ -106,7 +120,7 @@ nav.navegacao a:hover {
     gap: 30px;
     height: 830px;
 }
-  
+
 .text-img-right h2 {
     margin-left: 50px;
     text-align: start;
@@ -116,9 +130,8 @@ nav.navegacao a:hover {
     font-weight: 400;
     font-style: italic;
 }
-  
+
 .text-img-right img {
     width: 600px;
     border-radius: 60px;
 }
-  

@@ -62,3 +62,67 @@ nav.navegacao a:hover {
     border-radius: 30px;
 }
   
+/* Media Queries */
+
+/* Estilos para desktop */
+@media (max-width:1199px) and (min-width: 992px) {
+    .top-logo {
+        width: 100px;
+    }
+
+    .top-logo img {
+        width: 80px;
+    }
+}
+
+/* Estilos para tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .text-img-parcerias {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .text-parcerias {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .text2-parcerias {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .div-img-parcerias {
+        margin: 20px;
+    }
+
+    .img-parcerias {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 15px;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+
+@media (max-width: 766px) {
+    .top-logo {
+        width: 100px;
+    }
+
+    .top-logo img {
+        width: 80px;
+    }
+
+    nav.navegacao {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    nav.navegacao a {
+        margin: 5px 0;
+    }
+}

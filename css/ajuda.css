@@ -1,32 +1,33 @@
 * {
-  margin: 0;
-  font-family:"Poppins", sans-serif; ;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
-.top-page{
+/* Estilos gerais */
+.top-page {
     display: flex;
     flex-direction: column;
 }
 
-.top-logo-tipo2{
+.top-logo-tipo2 {
     width: 120px;
 }
 
-.top-logo-tipo2 img{
+.top-logo-tipo2 img {
     width: 100px;
 }
 
-nav.navegacao{
+nav.navegacao {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: rgb(233, 232, 232);
-    border-radius:15px ;  
+    border-radius: 15px;
 }
 
 nav.navegacao a {
     text-decoration: none;
-    color:rgb(62, 61, 61);
+    color: rgb(62, 61, 61);
     margin: 9px;
     font-family: "Roboto", sans-serif;
     border-radius: 30px;
@@ -36,16 +37,16 @@ nav.navegacao a {
 nav.navegacao a:hover {
     font-weight: bold;
 }
-  
-.ajuda-text-img{
+
+.ajuda-text-img {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 30px;
 }
 
-.img-ajuda{
+.img-ajuda {
     margin-top: 50px;
     margin-left: 30px;
     width: 60%;
@@ -56,11 +57,63 @@ nav.navegacao a:hover {
     border-radius: 50px;
 }
 
-.text-ajuda{
+.text-ajuda {
     width: 700px;
     font-size: 23px;
 }
 
 .text-ajuda p {
     font-family: "Roboto", sans-serif;
+}
+
+/* Media Queries */
+
+/* Estilos para desktop */
+@media (max-width:1199px) and (min-width: 992px) {
+    .ajuda-text-img {
+        flex-direction: row;
+        margin: 50px;
+    }
+    .img-ajuda {
+        margin-top: 0;
+        margin-left: 30px;
+        width: 50%;
+    }
+    .text-ajuda {
+        width: 50%;
+        font-size: 20px;
+    }
+}
+
+/* Estilos para tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .ajuda-text-img {
+        flex-direction: column;
+        margin: 30px;
+    }
+    .img-ajuda {
+        margin-top: 0;
+        margin-left: 0;
+        width: 80%;
+    }
+    .text-ajuda {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 766px) {
+    .ajuda-text-img {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .img-ajuda img {
+        width: 100%;
+        border-radius: 0;
+    }
+    .text-ajuda {
+        width: 100%;
+        font-size: 16px;
+    }
 }

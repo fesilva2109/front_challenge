@@ -33,25 +33,25 @@ nav.navegacao {
     flex-direction: row;
     background-color: rgb(233, 232, 232);
     border-radius: 15px;
-    padding: 10px; /* Adicionado padding para melhorar o espaçamento */
+    padding: 10px; 
 }
 
 nav.navegacao ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Removido margem para alinhamento correto */
-    display: flex; /* Mantém os itens em linha */
+    margin: 0; 
+    display: flex; 
 }
 
 nav.navegacao li {
-    margin: 0 5px; /* Espaçamento entre os itens da navegação */
+    margin: 0 5px; 
 }
 
 nav.navegacao a {
     text-decoration: none;
     color: rgb(62, 61, 61);
     font-family: "Roboto", sans-serif;
-    padding: 10px; /* Adicionado padding para melhorar a área clicável */
+    padding: 10px; 
 }
 
 nav.navegacao a:hover {
@@ -89,8 +89,8 @@ nav.navegacao a:hover {
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    cursor: pointer; /* Adicionado cursor para indicar que é um botão */
-    text-align: center; /* Centralizado o texto no botão */
+    cursor: pointer; 
+    text-align: center; 
 }
 
 .button-left-section p {
@@ -134,4 +134,51 @@ nav.navegacao a:hover {
 .text-img-right img {
     width: 600px;
     border-radius: 60px;
+}
+
+/* Media Queries */
+
+/* Estilos para desktop */
+@media (max-width:1199px) and (min-width: 992px) {
+    .text-button-left-section {
+        margin-top: 150px;
+    }
+}
+
+/* Estilos para tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .left-section {
+        width: 50%;
+    }
+    .right-section {
+        width: 50%;
+    }
+    .text-img-right h2 {
+        font-size: 30px;
+    }
+    .text-img-right img {
+        width: 500px;
+        border-radius: 50px;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 766px) {
+    .left-section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .right-section {
+        width: 100%;
+    }
+    .text-button-left-section {
+        margin-top: 100px;
+    }
+    .text-img-right h2 {
+        font-size: 24px;
+    }
+    .text-img-right img {
+        width: 90%;
+        border-radius: 30px;
+    }
 }

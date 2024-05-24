@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -7,72 +7,55 @@
 /* Estrutura geral */
 .sections {
     overflow: hidden;
-    height: 100%
 }
 
 .right-section {
-    height: 100%;
     width: 60%;
     float: left;
 }
 
 .left-section {
-    height: 100%;
     width: 40%;
     float: left;
 }
 
 /* Sessão da esquerda */
 .top-logo {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 100%;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
 }
 
 .top-logo img {
     width: 100px;
+    margin-right: 400px; 
 }
 
 /**/
-.login{
-    margin-right: 50px;
-}
 .login  a {
     color: #68abe9;
     text-decoration: none;
     font-weight: 600;
+    margin-left: 20px; 
 }
 
 .login a:hover {
     text-decoration: underline;
-  }
-
-
+}
 
 nav.navegacao {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
     background-color: rgb(233, 232, 232);
     border-radius: 15px;
-    
+    padding: 10px; 
 }
 
 nav.navegacao ul {
-   
     list-style-type: none;
     padding: 0;
     margin: 0; 
     display: flex; 
-    width: 100%;
-    justify-content: center;
-    gap: 30px;
 }
 
 nav.navegacao li {
@@ -175,6 +158,10 @@ nav.navegacao a:hover {
     .text-button-left-section {
         margin-top: 150px;
     }
+    .top-logo img {
+        width: 100px;
+        margin-right:270px; 
+    }
 }
 
 /* Estilos para tablets */
@@ -189,8 +176,12 @@ nav.navegacao a:hover {
         font-size: 30px;
     }
     .text-img-right img {
-        width: 500px;
+        width: 400px;
         border-radius: 50px;
+    }
+    .top-logo img {
+        width: 100px;
+        margin-right: 250px; 
     }
 }
 
@@ -218,5 +209,9 @@ nav.navegacao a:hover {
     }
     .right-section{
         background-image:none
+    }
+    .top-logo img {
+        width: 100px;
+        margin-right: 500px; 
     }
 }

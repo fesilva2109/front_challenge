@@ -115,38 +115,46 @@ body {
 /* Estilos para desktop */
 @media (max-width:1199px) and (min-width: 992px) {
   .wrapper {
-      width: 500px;
+    width: 500px;
   }
   .wrapper h1 {
-      font-size: 40px;
+    font-size: 40px;
   }
 }
 
 /* Estilos para tablets */
 @media (max-width: 991px) and (min-width: 768px) {
   .wrapper {
-      width: 90%;
-      padding: 25px 30px;
+    width: 90%;
+    padding: 25px 30px;
   }
   .wrapper h1 {
-      font-size: 34px;
+    font-size: 34px;
+  }
+  .input-box input {
+    font-size: 16px;
+  }
+  .wrapper .btn {
+    height: 40px;
+    font-size: 16px;
   }
 }
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 766px) {
   .wrapper {
-      width: 100%;
-      padding: 20px 20px;
-      border-radius: 0;
+    width: 90%;
+    padding: 20px;
+    border-radius: 0;
   }
   .wrapper h1 {
-      font-size: 28px;
+    font-size: 30px;
   }
   .input-box input {
-      font-size: 14px;
+    font-size: 14px;
   }
   .wrapper .btn {
-      height: 35px;
-      font-size: 14px;
+    height: 35px;
+    font-size: 14px;
   }
 }

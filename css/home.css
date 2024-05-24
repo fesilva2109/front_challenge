@@ -7,21 +7,30 @@
 /* Estrutura geral */
 .sections {
     overflow: hidden;
+    height: 100%
 }
 
 .right-section {
+    height: 100%;
     width: 60%;
     float: left;
 }
 
 .left-section {
+    height: 100%;
     width: 40%;
     float: left;
 }
 
 /* Sessão da esquerda */
 .top-logo {
-    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .top-logo img {
@@ -29,6 +38,9 @@
 }
 
 /**/
+.login{
+    margin-right: 50px;
+}
 .login  a {
     color: #68abe9;
     text-decoration: none;

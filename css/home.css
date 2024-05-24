@@ -25,7 +25,7 @@
 /* Sessão da esquerda */
 .top-logo {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100%;
     display:flex;
     align-items: center;
@@ -56,16 +56,23 @@
 nav.navegacao {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     background-color: rgb(233, 232, 232);
     border-radius: 15px;
-    padding: 10px; 
+    
 }
 
 nav.navegacao ul {
+   
     list-style-type: none;
     padding: 0;
     margin: 0; 
     display: flex; 
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
 }
 
 nav.navegacao li {
